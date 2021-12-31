@@ -1,0 +1,46 @@
+.rimg img {
+    text-align: left;
+    width: 20%;
+}
+
+ul li {
+    
+    display: inline-block;
+    padding: 15px 100px 20px 0px;
+    font-size: clamp(10px,1.5vw,50px);
+
+  }
+
+  header {
+  
+      text-align: center;
+      background-color: goldenrod;
+      
+  }
+
+  a:hover {
+    color:white;
+    font-size: 1.1em;/*文字サイズ2倍*/
+    font-weight: bold;
+  }
+
+
+  
+  a {
+    text-decoration:none; 
+}
+
+.menu a {
+    color: rgb(12, 12, 12);
+    text-decoration:none; 
+  }
+
+  
+.menu a:hover {
+    color: white;
+}
+
+video {
+  width: 100%;
+  text-align: center;
+}
