@@ -1,3 +1,7 @@
+
+
+
+
 .rimg img {
     text-align: left;
     width: 20%;
@@ -6,15 +10,23 @@
 ul li {
     
     display: inline-block;
-    padding: 15px 100px 20px 0px;
-    font-size: clamp(10px,1.5vw,50px);
+    padding: 15px 50px 20px 2px;
+ 
 
   }
+ul {
+
+  
+}
+.mozi {
+  font-size: 100%;
+}
 
   header {
-  
+
       text-align: center;
       background-color: goldenrod;
+      background-size: 100%;
       
   }
 
@@ -43,4 +55,79 @@ ul li {
 video {
   width: 100%;
   text-align: center;
+}
+
+
+.inline-block_test {
+  
+  
+  display: inline-block;      /* インラインブロック要素にする */
+  background-color:  rgb(224, 204, 137);    /* 背景色指定 */
+  padding:  10px;             /* 余白指定 */
+  height: 1000px;              /* 高さ指定 */
+  width: 50%;  
+
+}
+
+.inline-block_test0 {
+  
+  
+  display: inline-block;      /* インラインブロック要素にする */
+  background-color:  rgb(247, 139, 139);    /* 背景色指定 */
+  padding:  10px;             /* 余白指定 */
+  height: 1000px;              /* 高さ指定 */
+ 
+
+}
+
+
+.wrapper{
+  display: flex;
+  
+ 
+ 
+}
+h2 {
+  color: rgb(32, 32, 32);
+
+  font-size:3.6vw;
+
+}
+
+.部屋の中こうぼう {
+  background-color:  rgb(255, 247, 213);    /* 背景色指定 */
+  padding:  10px;             /* 余白指定 */
+  height: 100%;              /* 高さ指定 */
+  width: 50%; 
+  text-align: center;
+
+}
+.nakasoto1 {
+  font-size:2.5vw;
+}
+
+.部屋の外こうぼう {
+  background-color:  rgb(181, 246, 255);    /* 背景色指定 */
+   padding:  10px;             /* 余白指定 */
+  height: 100%;              /* 高さ指定 */
+  width: 50%; 
+  text-align: center;
+}
+
+.nakasoto {
+  font-size: 1.5vw;
+}
+
+.sotonaka {
+  width: 30%;
+}
+
+
+
+.link {
+  background-color: rgb(46, 46, 46);
+  font-size: 2vw;
+}
+a {
+  color: rgb(255, 238, 0);
 }
