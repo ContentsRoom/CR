@@ -1,5 +1,7 @@
 
-
+body {
+  text-align: center;
+}
 
 
 .rimg img {
@@ -14,10 +16,7 @@ ul li {
  
 
   }
-ul {
 
-  
-}
 .mozi {
   font-size: 100%;
 }
@@ -95,7 +94,7 @@ h2 {
 }
 
 .部屋の中こうぼう {
-  background-color:  rgb(255, 247, 213);    /* 背景色指定 */
+  background-color:  rgb(160, 160, 160);    /* 背景色指定 */
   padding:  10px;             /* 余白指定 */
   height: 100%;              /* 高さ指定 */
   width: 50%; 
@@ -107,7 +106,7 @@ h2 {
 }
 
 .部屋の外こうぼう {
-  background-color:  rgb(181, 246, 255);    /* 背景色指定 */
+  background-color:  rgb(160, 160, 160);    /* 背景色指定 */
    padding:  10px;             /* 余白指定 */
   height: 100%;              /* 高さ指定 */
   width: 50%; 
@@ -129,5 +128,22 @@ h2 {
   font-size: 2vw;
 }
 a {
-  color: rgb(255, 238, 0);
+  color: rgb(255, 255, 255);
+}
+
+.img0 {
+  width: 100%;
+}
+
+.img0 {
+  width: 100%;
+}
+
+.img1 {
+  width: 50%;
+}
+
+.sita {
+  background-color: rgb(29, 29, 29);
+  color: white;
 }
