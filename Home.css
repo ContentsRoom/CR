@@ -14,11 +14,21 @@ body {
 ul li {
     
     display: inline-block;
-    padding: 15px 50px 20px 2px;
+    padding: 15px 100px 20px 2px;
  
 
   }
 
+  .sp ul li {
+    
+    display: inline-block;
+    padding: 15px 60px 20px 2px;
+  
+  
+  }
+
+
+  /*PCとスマホ版の切り替えるPG*/
 
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc { display: block !important; }
@@ -29,17 +39,11 @@ ul li {
     .pc { display: none !important; }
     .sp { display: block !important; }
 }
+/*ここまで*/
 
 
 
 
-.sp ul li {
-    
-  display: inline-block;
-  padding: 15px 10px 20px 2px;
-
-
-}
 
 
 
