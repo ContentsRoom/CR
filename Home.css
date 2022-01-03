@@ -14,7 +14,7 @@ body {
 ul li {
     
     display: inline-block;
-    padding: 52px 100px 20px 2px;
+    padding: 15px 100px 20px 2px;
  
 
   }
@@ -22,19 +22,24 @@ ul li {
   .sp ul li {
     
     display: inline-block;
-    padding: 12px 40px 20px 2px;
+    padding: 15px 60px 20px 2px;
   
   
   }
-
-
+.pc ul li a {
+  font-size: 3vw;
+}
+.sp ul li a {
+  font-size: 1vw;
+}
   /*PCとスマホ版の切り替えるPG*/
+
 /* パソコンで見たときは"pc"のclassがついた画像が表示される */
 .pc { display: block !important; }
 .sp { display: none !important; }
  
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
-@media only screen and (max-width: 1090px) {
+@media only screen and (max-width: 1600px) {
     .pc { display: none !important; }
     .sp { display: block !important; }
 }
@@ -172,9 +177,6 @@ a {
   color: rgb(255, 255, 255);
 }
 
-.img0 {
-  width: 100%;
-}
 
 .img0 {
   width: 100%;
@@ -187,4 +189,24 @@ a {
 .sita {
   background-color: rgb(29, 29, 29);
   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img0pc {
+  width: 50%;
+}
+
+.img1pc {
+  width: 25%;
 }
