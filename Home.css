@@ -8,7 +8,9 @@ body {
     text-align: left;
     width: 20%;
 }
-
+.rimg {
+  text-align: left;
+}
 ul li {
     
     display: inline-block;
@@ -120,7 +122,9 @@ h2 {
 .sotonaka {
   width: 30%;
 }
-
+.ROGO {
+  text-align: left;
+}
 
 
 .link {
