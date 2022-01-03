@@ -34,7 +34,7 @@ ul li {
 .sp { display: none !important; }
  
 /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1090px) {
     .pc { display: none !important; }
     .sp { display: block !important; }
 }
